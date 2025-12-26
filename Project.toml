@@ -1,0 +1,13 @@
+name = "Z2TensorKit"
+uuid = "fbfa7797-1d9b-4030-96ff-ac5316b66f85"
+authors = ["zjsun "]
+version = "0.1.0"
+
+[deps]
+LRUCache = "8ac3fa9e-de4c-5943-b1dc-09c6b5f20637"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Strided = "5e0ebb24-38b0-5f93-81fe-25c709ecae67"
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
+TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
+VectorInterface = "409d34a3-91d5-4945-b6ec-7529ddf182d8"
