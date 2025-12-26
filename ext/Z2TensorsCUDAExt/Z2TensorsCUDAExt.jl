@@ -1,10 +1,10 @@
 
 
-module Z2TensorKitCUDAExt
+module Z2TensorsCUDAExt
 
-using Z2TensorKit
-const TK = Z2TensorKit
-using Z2TensorKit: AdjointTensorMap, RealOrComplexFloat, NoTruncation,
+using Z2Tensors
+const TK = Z2Tensors
+using Z2Tensors: AdjointTensorMap, RealOrComplexFloat, NoTruncation,
         SectorDict, _empty_svdtensors, _compute_truncdim, _compute_truncerr
 
 

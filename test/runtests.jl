@@ -1,4 +1,4 @@
-push!(LOAD_PATH, dirname(dirname(Base.@__DIR__)) * "/Z2TensorKit/src")
+push!(LOAD_PATH, dirname(dirname(Base.@__DIR__)) * "/Z2Tensors/src")
 
 
 using Test
@@ -9,9 +9,9 @@ using TensorOperations
 using Base.Iterators: take, product
 using LinearAlgebra: LinearAlgebra
 
-using Z2TensorKit
-using Z2TensorKit: fusiontensor#, pentagon_equation, hexagon_equation # ProductSector, 
-const TK = Z2TensorKit
+using Z2Tensors
+using Z2Tensors: fusiontensor#, pentagon_equation, hexagon_equation # ProductSector, 
+const TK = Z2Tensors
 
 Random.seed!(1234)
 

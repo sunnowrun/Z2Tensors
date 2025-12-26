@@ -1,5 +1,5 @@
 
-module Z2TensorKit
+module Z2Tensors
 
 # Exports
 #---------

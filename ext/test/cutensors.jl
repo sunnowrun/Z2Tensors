@@ -1,7 +1,7 @@
 ENV["CUDA_VISIBLE_DEVICES"] = 5
 
-push!(LOAD_PATH, dirname(dirname(dirname(Base.@__DIR__))) * "/Z2TensorKit/ext/Z2TensorKitCUDAExt/")
-using CUDA, Z2TensorKitCUDAExt
+push!(LOAD_PATH, dirname(dirname(dirname(Base.@__DIR__))) * "/Z2Tensors/ext/Z2TensorsCUDAExt/")
+using CUDA, Z2TensorsCUDAExt
 
 spacelist = (VZ2,) # (Vtr, VZ2, Vℤ₃, VU₁)#, VSU₃)
 

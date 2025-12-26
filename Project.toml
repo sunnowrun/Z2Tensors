@@ -1,4 +1,4 @@
-name = "Z2TensorKit"
+name = "Z2Tensors"
 uuid = "fbfa7797-1d9b-4030-96ff-ac5316b66f85"
 authors = ["zjsun "]
 version = "0.1.0"

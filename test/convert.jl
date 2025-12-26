@@ -1,6 +1,6 @@
 
 using TupleTools, Strided
-using Z2TensorKit: couple
+using Z2Tensors: couple
 const TO = TensorOperations
 
 
