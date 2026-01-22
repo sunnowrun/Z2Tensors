@@ -89,6 +89,7 @@ function ⊕(V₁::GradedSpace{I}, V₂::GradedSpace{I}) where {I<:Sector}
     return typeof(V₁)(dims; dual=dual1)
 end
 ⊕(V₁::GradedSpace{I}, V₂::GradedSpace{I}, Vs::GradedSpace{I}...) where {I<:Sector} = ⊕(⊕(V₁, V₂), Vs...)
+⊕(V::GradedSpace) = V
 
 function fuse(V₁::GradedSpace{I}, V₂::GradedSpace{I}) where {I<:Sector}
     dims = SectorDict{I,Int}()
